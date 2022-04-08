@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100vw;
+    
+}
+
+.caja1{
+    background-color: red;
+    padding: 10vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.caja1 h2{
+    color: yellow;
+}
+
+.caja2{
+    background-color: black;
+    padding: 10vw;
+}
+
+.caja2 h2{
+    color: white;
+}
+
+.caja3{
+    background-color: red;
+    padding: 10vw;
+}
+
+.caja3 h2{
+    color: yellow;
+}
+
+.caja4{
+    background-color: red;
+    padding: 10vw 5vw;
+}
+
+.caja4 h2{
+    color: yellow;
+}
